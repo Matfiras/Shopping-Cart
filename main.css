@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+#body-style{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(126, 200, 85, 1)
+}
+.list-of-products{
+    margin:6% 18% 2%;
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    border-radius: 2%;
+    border-color: transparent;
+}
+.line-style{
+    color:rgba(234, 238, 235, 0.856)
+}
+.title{
+    padding-top: 1%;
+    margin-left: 3%;
+}
+.Name-and-color{
+    display: flex;
+    flex-direction: column;
+}
+.info-product{
+    display: flex;
+}
+.img-of-product{
+    margin:0.4%;
+    width: 100px;
+    height: 100px;
+}
+.Name-and-color{
+    display: flex;
+    flex-direction: column;
+    margin:5%;
+}
+.Name{
+    font-weight: bold;
+}
+.color{
+    color: gray;
+}
+.heart-position{
+    margin:7%;
+}
+.quantity-to-select{
+    margin:6% 2% 1% 0%;
+    display: flex;
+    
+}
+.quantity{
+    width: 40px;
+    height: 30px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-top: 7%;
+    margin-left: 1%;
+    
+}
+.info-quantity{
+    font-size: 90%;
+    font-weight: bold;
+    margin:1%;
+    
+      
+}
+.price-product{
+    display: flex;
+    justify-content: space-around;
+}
+.color-price{
+    margin:8% 3% 0%;
+    color: gray;
+    font-weight: bold;
+}
+.button-size{
+    margin-top:7%;
+    height: 40px;
+    width: 70px; 
+}

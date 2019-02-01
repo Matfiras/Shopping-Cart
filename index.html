@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="index.js"></script>
+</head>
+<body id="body-style">
+    <div class="list-of-products">
+        <h3 id="Title" class="title">9offa Shopping total</h3>
+    <hr class="line-style">
+    <div class="form-of-list container">
+            <div class="row">
+                    <div class="info-product col-sm-6">
+                        <i id="far1" class="heart-position far fa-heart" onclick="changeicone(id)"></i>
+                        <img src="imgs/bag-3.jpg" class="rounded img-of-product">
+                        <div class="Name-and-color">
+                            <div class="Name">9offa</div>
+                            <div class="color">Green</div>
+                        </div>
+                    </div>
+                    <div class="price-product col-sm-6">
+                        <div class="quantity-to-select">
+                            <div class="info-quantity">Select Quantity</div>
+                            <input id="quantity-1" class="quantity" type="number" min="0" value="1">
+                        </div>
+                        <button name="79"id="button-1"type="button" class="button-size btn btn-secondary" onclick="calculatePrice(1,name)">Price</button>
+                        <div id="price-1"class="color-price"></div>  
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="info-product col-sm-6">
+                            <i id="far2" class="heart-position far fa-heart" onclick="changeicone(id)"></i>
+                            <img src="imgs/bag-2.jpg"class="rounded img-of-product">
+                            <div class="Name-and-color">
+                                <div class="Name">9offa</div>
+                                <div class="color">White</div>
+                            </div>
+                        </div>
+                        <div class="price-product col-sm-6">
+                            <div class="quantity-to-select">
+                                <div class="info-quantity">Select Quantity</div>
+                                <input id="quantity-2"class="quantity" type="number" min="0"id="myNumber" value="1">
+                            </div>
+                            <button name="89"id="button-2" type="button" class="button-size btn btn-secondary" onclick="calculatePrice(2,name)">Price</button>
+                            <div id="price-2"class="color-price"></div>  
+                        </div>
+                    </div>    
+                    <div class="row">
+                            <div class="info-product col-sm-6">
+                                <i id="far3" class="heart-position far fa-heart" onclick="changeicone(id)"></i>
+                                <img src="imgs/bag-1.jpg" class="rounded img-of-product">
+                                <div class="Name-and-color">
+                                    <div class="Name">9offa</div>
+                                    <div class="color">Black</div>
+                                </div>
+                            </div>
+                            <div class="price-product col-sm-6">
+                                <div class="quantity-to-select">
+                                    <div class="info-quantity">Select Quantity</div>
+                                    <input id="quantity-3"class="quantity" type="number" min="0"id="myNumber" value="1">
+                                </div>
+                                <button name="73"id="button-3" type="button" class="button-size btn btn-secondary" onclick="calculatePrice(3,name)">Price</button>
+                                <div id="price-3"class="color-price"></div>  
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="info-product col-sm-6">
+                                    <i id="far4" class="heart-position far fa-heart" onclick="changeicone(id)"></i>
+                                    <img src="imgs/bag-3.jpg" class="rounded img-of-product">
+                                    <div class="Name-and-color">
+                                        <div class="Name">9offa</div>
+                                        <div class="color">Green</div>
+                                    </div>
+                                </div>
+                                <div class="price-product col-sm-6">
+                                    <div class="quantity-to-select">
+                                            <div class="info-quantity">Select Quantity</div>
+                                        <input id="quantity-4"class="quantity" type="number" min="0"id="myNumber" value="1">
+                                    </div>
+                                    <button name="79"id="button-4"type="button" class="button-size btn btn-secondary" onclick="calculatePrice(4,name)">Price</button>
+                                    <div id="price-4"class="color-price"></div>   
+                                </div>
+                            </div>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
